@@ -32,7 +32,7 @@ body {
 }
 
 .circle {
-  background-color: #ff7979;
+  background-color: #006eff;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -117,7 +117,7 @@ nav a{
 }
 
 nav a:hover {
-  color: #FF7979;
+  color:  #006eff;
   font-weight: bold;
 }
 
