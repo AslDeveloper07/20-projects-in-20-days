@@ -32,14 +32,14 @@ function addTodo(todo) {
         todoEl.addEventListener('click', () => {
             todoEl.classList.toggle('completed')
             updateLS()
-        }) 
+        })
 
         todoEl.addEventListener('contextmenu', (e) => {
             e.preventDefault()
 
             todoEl.remove()
             updateLS()
-        }) 
+        })
 
         todosUL.appendChild(todoEl)
 
