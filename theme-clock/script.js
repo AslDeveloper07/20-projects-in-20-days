@@ -8,16 +8,29 @@ const toggle = document.querySelector('.toggle')
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-toggle.addEventListener('click', (e) => {
-    const html = document.querySelector('html')
-    if (html.classList.contains('dark')) {
-        html.classList.remove('dark')
-        e.target.innerHTML = 'Dark mode'
-    } else {
-        html.classList.add('dark')
-        e.target.innerHTML = 'Light mode'
-    }
-})
+// JavaScript: dark/light mode almashtirish
+
+toggle.addEventListener('change', () => {
+  const html = document.documentElement;
+  html.classList.toggle('dark');
+
+  // Ixtiyoriy: holatni localStorage-ga saqlash
+  if (html.classList.contains('dark')) {
+    localStorage.setItem('theme', 'dark');
+  } else {
+    localStorage.setItem('theme', 'light');
+  }
+});
+
+// Saqlangan mavzuni qayta yuklashda tiklash
+window.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark') {
+    document.documentElement.classList.add('dark');
+    toggle.checked = true;
+  }
+});
+
 
 function setTime() {
     const time = new Date();
