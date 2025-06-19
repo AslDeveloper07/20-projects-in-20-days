@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+  --primary-color:#030712;
+  --secondary-color:#10141f;
 }
 
 * {
@@ -23,22 +23,25 @@ header {
 }
 
 .search {
-  background-color: transparent;
+  background-color:  var(--primary-color);
   border: 2px solid var(--primary-color);
   border-radius: 50px;
   font-family: inherit;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
+  border:  1px solid #00aeed00;
+  transition:  all 0.4s ease-in-out;
 }
 
 .search::placeholder {
-  color: #7378c5;
+  color: #00afed;
 }
 
 .search:focus {
   outline: none;
-  background-color: var(--primary-color);
+  border:  1px solid #00afed;
+  background-color:  #00aeed10;
 }
 
 main {
@@ -95,7 +98,7 @@ main {
 }
 
 .overview {
-  background-color: #fff;
+  background-color:  #0092c7;
   padding: 2rem;
   position: absolute;
   left: 0;
