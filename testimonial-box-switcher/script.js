@@ -6,55 +6,55 @@ const role = document.querySelector('.role')
 
 const testimonials = [
   {
-    name: 'Miyah Myles',
-    position: 'Marketing',
+    name: 'Fayzulla Abdullayev',
+    position: 'Cyber Security ',
     photo:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6',
+      'https://media.licdn.com/dms/image/v2/D4D03AQH6_LH1L9cMeg/profile-displayphoto-shrink_200_200/B4DZTu1ZWMHIAY-/0/1739173762856?e=2147483647&v=beta&t=TALR-nn7-va71xh505yfaIG0YG40pK2S3vNHcK8tmx0',
     text:
-      "I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a glitch, every time.",
+      "Dasturlashni o‘rganish mening orzuyim edi, lekin nimadan boshlashni bilmasdim. Bu kurs menga aniq yo‘l-yo‘riq va zarur bilimlarni berdi. Har bir mavzu sodda tilda, tushunarli tarzda yoritilgan. Amaliy mashqlar orqali bilimlarim mustahkam bo‘ldi. Kod yozish endi mening sevimli mashg‘ulotimga aylangan. O‘zimni haqiqiy dasturchi sifatida tasavvur qilishdan to‘xtamayapman.",
   },
   {
-    name: 'June Cha',
-    position: 'Software Engineer',
-    photo: 'https://randomuser.me/api/portraits/women/44.jpg',
+    name: 'Abdurahmon Karimov',
+    position: 'Back End Developer',
+    photo: 'https://stateofdev.uz/images/video-cover-v2.png?v=3.0',
     text:
-      'This guy is an amazing frontend developer that delivered the task exactly how we need it, do your self a favor and hire him, you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will surely work again with him!',
+      'Dasturchilikka qadam qo‘yganimda juda ko‘p savollarim bor edi. Bu darslar orqali ularning barchasiga javob topdim. Har bir modul menda yangi ko‘nikma va ishonch uyg‘otdi. Real loyihalarda ishlay olishim uchun zarur poydevor yaratildi. Endi o‘z loyihalarimni yaratmoqdaman. Bu men uchun katta yutuq va yangi hayot bosqichi.',
   },
   {
-    name: 'Iida Niskanen',
-    position: 'Data Entry',
-    photo: 'https://randomuser.me/api/portraits/women/68.jpg',
+    name: 'Faxriddin Jumaniyozov',
+    position: 'Back End Project Manager',
+    photo: 'https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Ftalent%2F1019150%2Fpicture%2Foptimized%2Fhuge_ed04aadcccff9b1b06d55201134e080d-ff6273bc07a9370e2698fa27d1cd3876.jpg&width=480',
     text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "Avval dasturlashni faqat matematikani yaxshi biladiganlar uchun deb o‘ylardim. Ammo bu kurs bu fikrimni butunlay o‘zgartirdi. Hamma narsa tushunarli, bosqichma-bosqich va juda amaliy tarzda o‘rgatilgan. O‘zim mustaqil ishlay olish darajasiga yetdim. Endi doimiy ravishda yangi texnologiyalarni sinab ko‘rayapman. Dasturchilikni o‘rganmoqchi bo‘lgan har kimga tavsiya qilaman.",
   },
   {
-    name: 'Renee Sims',
-    position: 'Receptionist',
-    photo: 'https://randomuser.me/api/portraits/women/65.jpg',
+    name: 'Shoxrux Azizov',
+    position: 'Front End Developer',
+    photo: 'https://media.licdn.com/dms/image/v2/C4D03AQEg5-vnPw7PvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1663581392790?e=2147483647&v=beta&t=emzGHPcvmdHjgy8jG9c-Q2Bj-2u1sFxk4y9LKnvI6-4',
     text:
-      "This guy does everything he can to get the job done and done right. This is the second time I've hired him, and I'll hire him again in the future.",
+      "Har kuni yangi narsa o‘rganish — bu kursning eng yaxshi tomoni. Dasturlashni o‘rganish faqat nazariya emas, balki ko‘p amaliyot ham ekan. Ustozlar yordami bilan qiyinchiliklarni yengib o‘tdim. Endi har bir muammoni kod orqali hal qilishga harakat qilaman. O‘zimni IT olamiga kirganimni his qilyapman. Bu tajriba menga katta ishonch berdi.",
   },
   {
-    name: 'Jonathan Nunfiez',
+    name: 'Asilbek Suvonov',
+    position: 'Front End Developer',
+    photo: 'https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Ftalent%2F123331%2Fpicture%2Foptimized%2Fhuge_0e78ee42316106abfd3f80fa5e9ecf4a-1c363500cc0d5e5ed4f31b62c0ba764d.jpg&width=480',
+    text:
+      "Menga bu kursning eng yoqqan jihati — amaliyotga alohida e’tibor berilganidir. Nazariyani darhol kod orqali sinab ko‘ramiz. Darslar zamonaviy uslubda va foydali maslahatlar bilan boyitilgan. Har bir moduldan so‘ng o‘zgarayotganimni sezdim. Endi HTML, CSS va JavaScript bilan kichik saytlar yarataman. Bu dastlab orzu edi, endi esa haqiqat.",
+  },
+  {
+    name: 'Miraziz Rahmonov',
+    position: 'Front End Developer',
+    photo:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGttGKeaSS2EhNcfaUeljTr4M-tHyyUGA79ZArViz7VNTZuV0AOb1rMDKfV5YHYFDTwOM&usqp=CAU',
+    text:
+      'Dasturlashda oldin ko‘p urindim, lekin yo‘limni yo‘qotardim. Bu safar esa puxta tuzilgan o‘quv dasturi yordam berdi. Har bir dars motivatsiyamni oshirdi va bilimimni chuqurlashtirdi. Avval murakkab tuyulgan tushunchalar endi oson ko‘rinadi. Loyihalar qilishni o‘rganish — eng yaxshi tajriba bo‘ldi. Endi o‘zimni IT sohasida tasavvur qilishim mumkin.',
+  },
+  {
+    name: 'Faida Ismoilova',
     position: 'Graphic Designer',
-    photo: 'https://randomuser.me/api/portraits/men/43.jpg',
+    photo: 'https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Ftalent%2F928514%2Fpicture%2Foptimized%2Fhuge_2b78910a2adf5d74efa2c098f585a421-8e2b3c9e3c460503366fb0fc02e17f53.jpg&width=480',
     text:
-      "I had my concerns that due to a tight deadline this project can't be done. But this guy proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I'm looking forward to work with him again and I totally recommend him. Thanks again!",
-  },
-  {
-    name: 'Sasha Ho',
-    position: 'Accountant',
-    photo:
-      'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb',
-    text:
-      'This guy is a top notch designer and front end developer. He communicates well, works fast and produces quality work. We have been lucky to work with him!',
-  },
-  {
-    name: 'Veeti Seppanen',
-    position: 'Director',
-    photo: 'https://randomuser.me/api/portraits/men/97.jpg',
-    text:
-      'This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results.',
+      'Bu kurs hayotimni o‘zgartirdi, desam xato bo‘lmaydi. Oddiy bilimdan boshlab, real loyihalar yaratishgacha yetib keldim. O‘qituvchilarning yondashuvi, metodikasi juda yaxshi. Kod yozish va muammolarni hal qilishga o‘rganib qoldim. Endi har kuni o‘z ustimda ishlayman va yangi narsalarni o‘rganaman. Bu yo‘lni tanlaganimdan xursandman.',
   },
 ]
 

@@ -18,7 +18,7 @@ body {
 }
 
 .testimonial-container {
-  background-color: #476ce4;
+  background: linear-gradient(150deg,rgba(0, 167, 209, 1) 1%, rgba(0, 46, 115, 1) 100%);
   color: #fff;
   border-radius: 15px;
   margin: 20px auto;
@@ -43,6 +43,7 @@ body {
 }
 
 .testimonial {
+  margin-bottom: 30px;
   line-height: 28px;
   text-align: justify;
 }
@@ -50,7 +51,7 @@ body {
 .user {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
 .user .user-image {
@@ -65,12 +66,14 @@ body {
 }
 
 .user .username {
+  font-size: 20px;
   margin: 0;
 }
 
 .user .role {
   font-weight: normal;
-  margin: 10px 0;
+  font-size: 14px;
+  margin: 5px 0;
 }
 
 .progress-bar {
