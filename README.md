@@ -39,7 +39,6 @@ git clone https://github.com/AslDeveloper07/20-projects-in-20-days.git
 
 Keyin har bir papkaga kirib `index.html` faylni brauzerda oching.
 
-## 🖼 Rasm va 🎥 Video qanday qo‘shiladi
 
 
 ## ✍️ Muallif
